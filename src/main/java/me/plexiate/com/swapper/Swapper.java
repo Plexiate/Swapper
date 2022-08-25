@@ -13,7 +13,7 @@ public final class Swapper extends JavaPlugin {
     public void onEnable() {
         instance = this;
 
-        System.out.println("Swapper 1.0 loaded!");
+        System.out.println("Swapper 1.1 loaded!");
         getCommand("survival").setExecutor(new survival());
         getCommand("spectator").setExecutor(new spectator());
         getCommand("creative").setExecutor(new creative());
@@ -24,6 +24,6 @@ public final class Swapper extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        System.out.println("Swapper 1.0 shutting down!");
+        System.out.println("Swapper 1.1 shutting down!");
     }
 }

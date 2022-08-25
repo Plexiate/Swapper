@@ -12,13 +12,13 @@ public class adventure implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (!(sender instanceof Player)) {
-            Msg.send(sender, "10 IQ points have been deducted.");
+            Msg.send(sender, "If I were to allow that; Would the server explode?...");
             return true;
         }
 
         Player player = (Player) sender;
         player.setGameMode(GameMode.ADVENTURE);
-        Msg.send(sender, "&8[&aCrafters&8] &fGamemode set to &eAdventure&f.");
+        Msg.send(sender, "&8[&cSwapper&8] &7Gamemode set to &eAdventure&7.");
 
         return true;
     }
