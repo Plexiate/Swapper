@@ -1,0 +1,25 @@
+name: Swapper
+version: '${project.version}'
+main: me.plexiate.com.swapper.Swapper
+api-version: 1.19
+authors: [ Plexiate ]
+description: Swap gamemodes with permissions.
+website: plexiate.com
+commands:
+  survival:
+    description: Changes gamemode to survival.
+    usage: /survival
+    permission: swapper.survival
+  spectator:
+    description: Changes gamemode to spectator.
+    usage: /spectator
+    aliases: /spec
+    permission: swapper.spectator
+  creative:
+    description: Changes gamemode to creative.
+    usage: /creative
+    permission: swapper.creative
+  adventure:
+    description: Changes gamemode to adventure.
+    usage: /adventure
+    permission: swapper.adventure
