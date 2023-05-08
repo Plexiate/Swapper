@@ -1,0 +1,8 @@
+prefix: '&8[&cSwapper&8] '
+
+messages:
+  reload: '&7Swapper has been reloaded.'
+  survival: '&7Gamemode set to &eSurvival&7.'
+  creative: '&7Gamemode set to &eCreative&7'
+  spectator: '&7Gamemode set to &eSpectator&7.'
+  adventure: '&7Gamemode set to &eAdventure&7.'

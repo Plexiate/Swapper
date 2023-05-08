@@ -23,3 +23,7 @@ commands:
     description: Changes gamemode to adventure.
     usage: /adventure
     permission: swapper.adventure
+  sreload:
+    description: Reloads the configuration.
+    usage: /sreload
+    permission: swapper.reload

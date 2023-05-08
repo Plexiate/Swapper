@@ -6,7 +6,7 @@
 
     <groupId>me.plexiate.com</groupId>
     <artifactId>swapper</artifactId>
-    <version>1.1</version>
+    <version>1.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Swapper</name>
@@ -41,7 +41,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputFile>D:\FILES\dev\testserver\plugins\swapper.jar</outputFile>
+                            <outputFile>H:\Crafters-Backups\TestSMP\plugins\Swapper-1.0.2-SNAPSHOT.jar</outputFile>
                         </configuration>
                     </execution>
                 </executions>
@@ -70,7 +70,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.19.2-R0.1-SNAPSHOT</version>
+            <version>1.19.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
