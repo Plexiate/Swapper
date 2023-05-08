@@ -13,6 +13,7 @@ Permissions
     - swapper.creative
     - swapper.spectator
     - swapper.adventure
+    - swapper.sreload
 
 
 Commands
@@ -20,6 +21,7 @@ Commands
     - /creative
     - /spectator
     - /adventure
+    - /sreload
     
 
 Usage Tutorial:
